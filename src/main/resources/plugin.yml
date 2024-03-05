@@ -1,0 +1,11 @@
+name: StormRing
+version: '${project.version}'
+main: com.ashkiano.stormring.StormRing
+api-version: '1.16'
+authors: [ AshKiano ]
+commands:
+  givestormring:
+    description: Gives a player the Storm Ring.
+    usage: /<command>
+    permission: stormring.give
+    permission-message: You do not have permission to use this command.
