@@ -13,6 +13,7 @@ public class StormRing extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new StormRingListener(this), this);
 
         Metrics metrics = new Metrics(this, 21226);
+        this.getLogger().info("Thank you for using the StormRing plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://donate.ashkiano.com");
     }
 
     @Override
